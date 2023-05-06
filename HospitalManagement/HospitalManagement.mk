@@ -94,7 +94,7 @@ PreBuild:
 ## Objects
 ##
 ../build-$(ConfigurationName)/HospitalManagement/main.cpp$(ObjectSuffix): main.cpp ../build-$(ConfigurationName)/HospitalManagement/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/anuj1/Documents/BankManganmentProjectC++/HospitalManagement/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) ""C:\Users\vaibhav\Desktop\Cpp_Projects\Projects--cpp\HospitalManagement"" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 ../build-$(ConfigurationName)/HospitalManagement/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/HospitalManagement/main.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/HospitalManagement/main.cpp$(DependSuffix) -MM main.cpp
 
